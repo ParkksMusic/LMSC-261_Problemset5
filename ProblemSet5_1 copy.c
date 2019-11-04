@@ -60,15 +60,15 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 
-void appendCharacter(int n, char chr, char chrs[]) {
+void appendCharacter(int n, char chr, char chrs[]){
   for(int i = 0; i < n-i; i++){
-    chrs[i] = chrs [i + 1]; chrs [i + n-1] = chr; }
+    chrs[i] = chrs [i + 1];
+    }
 
 }
 
 void saveNgram(int n, char chrs[], FILE *file) {
-  FILE *readFile;
-  for(int i = 0; chrs[i] != '\0'; i++)
-    fputc(chrs[i], file); "\n";
-    
+  chrs = 
+  for (int i = 0; chrs[i] < chrs [n-1]; i++){chrs[n-1]='\n';
+  
 }
